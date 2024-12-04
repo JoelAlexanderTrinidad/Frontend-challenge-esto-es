@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+@media (min-width: 1024px) {
+  #root {
+    background-color: #e5e7eb;
+    height: 100vh;
+  }
+}

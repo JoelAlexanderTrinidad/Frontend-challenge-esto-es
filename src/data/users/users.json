@@ -1,0 +1,44 @@
+[
+     {
+        "id": 1,
+        "name": "Maryanne Hanna",
+        "rol": "user",
+        "avatar": null
+     },
+     {
+        "id": 2,
+        "name": "Ethel Orr",
+        "rol": "user",
+        "avatar": null
+     },
+     {
+        "id": 3,
+        "name": "Ora Bartlett",
+        "rol": "user",
+        "avatar": null
+     },
+     {
+        "id": 4,
+        "name": "Ulysses Calhoun",
+        "rol": "user",
+        "avatar": null
+     },
+     {
+        "id": 5,
+        "name": "Adrian Pierce",
+        "rol": "user",
+        "avatar": null
+     },
+     {
+        "id": 6,
+        "name": "Janette Schwartz",
+        "rol": "user",
+        "avatar": null
+     },
+     {
+        "id": 7,
+        "name": "Dominick Nolan",
+        "rol": "user",
+        "avatar": null
+     }
+ ]

@@ -1,0 +1,20 @@
+[
+    {
+       "id": 1,
+       "name": "Walt Cosani",
+       "rol": "project-manager",
+       "avatar": null
+    },
+    {
+        "id": 2,
+        "name": "Nancy Cuevas",
+        "rol": "project-manager",
+        "avatar": null
+     },
+     {
+        "id": 3,
+        "name": "Hilario Rojas",
+        "rol": "project-manager",
+        "avatar": null
+     }
+ ]
