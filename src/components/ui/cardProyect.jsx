@@ -25,27 +25,27 @@ export const CardProyect = ({ id, name, date, assignedTo, projectManager, status
   };
 
   return (
-    <div className="flex items-center justify-between border p-3 ">
-      <div className="">
-        <h2>{name}</h2>
+    <div className="flex items-center border p-3 ">
+      <div >
+        <h2 className="w-80 me-8">{name}</h2>
         <p className="text-sm text-slate-600">Creation date: {date}</p>
         <p className="text-sm lg:hidden">Assigned to: {assignedTo}</p>
       </div>
         
       <div className="hidden lg:block">
-        <h2>{projectManager}</h2>
+        <h2 className="w-64 me-4">{projectManager}</h2>
       </div>
 
       <div className="hidden lg:block">
-        <h2>{assignedTo}</h2>
+        <h2 className="w-64 me-6">{assignedTo}</h2>
       </div>
 
-      <div className="hidden lg:block text-sm bg-[#e7e7e7] px-2 border border-gray-300 rounded text-neutral-500">
+      <div className="hidden lg:block text-sm bg-[#e7e7e7] px-2 border border-gray-3000 rounded text-neutral-500">
         <h2>{status}</h2>
       </div>
 
       <div>
-        <div className="relative lg:text-xl lg:me-8">
+        <div className="relative lg:text-xl ms-36">
           <i
             className="fa-solid fa-ellipsis-vertical cursor-pointer"
             onClick={handleMenuToggle}
